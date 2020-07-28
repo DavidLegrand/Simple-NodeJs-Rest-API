@@ -1,0 +1,36 @@
+### ##### ##### ##### ###
+### ##### POSTS ##### ###
+### ##### ##### ##### ###
+### GET ALL
+GET http://localhost:3000/posts
+### GET ONE 
+GET http://localhost:3000/posts/5f1d8558fc13ae21a3000000
+### GET POST COMMENTS
+GET http://localhost:3000/posts/5f1d8558fc13ae21a3000000/comments
+### GET POST REACTIONS
+GET http://localhost:3000/posts/5f1d8558fc13ae21a3000000/reactions
+
+### ##### ##### ##### ###
+### ##### USERS ##### ###
+### ##### ##### ##### ###
+### GET ALL
+GET http://localhost:3000/users
+### GET ONE 
+GET http://localhost:3000/users/5f1d752dfc13ae6d0c000000
+### GET USER INFOS 
+GET http://localhost:3000/users/5f1d752dfc13ae6d0c000000/details
+### GET USER FRIENDS
+GET http://localhost:3000/users/5f1d752dfc13ae6d0c000000/friends
+### GET USER POSTS
+GET http://localhost:3000/users/5f1d752dfc13ae6d0c000000/posts
+### GET USER LIKES
+GET http://localhost:3000/users/5f1d752dfc13ae6d0c000000/likes
+
+
+### ##### ##### ##### ###
+### ##### PAGES ##### ###
+### ##### ##### ##### ###
+### GET ALL
+GET http://localhost:3000/pages
+### GET ONE 
+GET http://localhost:3000/pages/5f1d889bfc13ae6df10003e8
